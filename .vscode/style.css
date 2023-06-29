@@ -1,0 +1,98 @@
+body{
+box-sizing: border-box;
+background-color: #F7DB6A;  
+color:#FE6244;
+}
+.cabecalho{
+width: 100%;
+padding: 0% 0% 0% 40% ;
+}
+.cabecalho_teste{
+display: flex;
+gap: 80px;
+}
+.cabecalho_temporario{
+font-size: 24px;
+font-family: jockey one ;
+font-weight: 600;
+color: #E55D10 ;
+text-decoration: none;
+}
+.cabecalho_temporario:hover{
+scale: 1.2;
+color:brown;
+cursor:pointer;
+}
+.conteudo{
+padding: 2% 2%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.titulo_principal{
+font-size: 30px;
+font-family:jockey one;
+color: #E55D10; 
+text-align: left;
+padding: 10px;
+margin: 5px;
+}
+
+.subtitulo{
+font-size: 20px;
+font-family:jockey one; 
+color: #E55D10;
+text-align: left;
+}
+.texto{
+font-size: 15px;
+font-family:jockey one; 
+color: #000000;
+text-align: left;
+}
+.botao_link{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap:32px;
+}
+.link_botao {
+justify-content: center;
+display: inline-block;
+gap: 300px;
+border: 3px solid #D9D9D9;
+border-radius: 12px;
+width: 204px;
+height: 34px;
+text-decoration: none;
+font-family: jockey one;
+font-weight: 700;
+color: #000000;
+padding: 10px 20px;
+margin-right: 20px;
+text-align: center;
+background-color: #D9D9D9;
+}
+.link_botao:hover{
+scale: 1.06; 
+background-color:#FE6244 ;  
+}
+.figura{
+width: 300px;  
+height: 350px;  
+}
+.rodape{
+position:fixed;
+bottom: 0;
+left: 0%;
+color: white;
+background-color:brown ;
+padding: 5px;
+text-align: center;
+font-family: jockey one;
+font-size: 24px;
+font-weight: 400;
+width: 100%;
+  }
