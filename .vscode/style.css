@@ -5,16 +5,30 @@ color:#FE6244;
 }
 .cabecalho{
 width: 100%;
-padding: 0% 0% 0% 40% ;
+padding: 0% 0% 0% 25% ;
+}
+.container{
+  width: 100%;
+  height: 600px;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.box{
+  width: 45%;
+  height: 450px;
+  background-color: orangered;
 }
 .cabecalho_teste{
 display: flex;
 gap: 80px;
 }
 .cabecalho_temporario{
-font-size: 24px;
+font-size: 50px;
 font-family: jockey one ;
-font-weight: 600;
+font-weight: 50;
 color: #E55D10 ;
 text-decoration: none;
 }
@@ -29,24 +43,23 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
-
-.titulo_principal{
-font-size: 30px;
+.titulo_principal{ 
+font-size: 50px;
 font-family:jockey one;
-color: #E55D10; 
-text-align: left;
+color: burlywood; 
+text-align:initial;
 padding: 10px;
 margin: 5px;
 }
 
 .subtitulo{
-font-size: 20px;
+font-size: 40px;
 font-family:jockey one; 
-color: #E55D10;
+color: #000000;
 text-align: left;
 }
 .texto{
-font-size: 15px;
+font-size: 30px;
 font-family:jockey one; 
 color: #000000;
 text-align: left;
@@ -64,24 +77,24 @@ display: inline-block;
 gap: 300px;
 border: 3px solid #D9D9D9;
 border-radius: 12px;
-width: 204px;
+width: 150px;
 height: 34px;
 text-decoration: none;
 font-family: jockey one;
 font-weight: 700;
 color: #000000;
-padding: 10px 20px;
+padding: 10px 10px;
 margin-right: 20px;
 text-align: center;
 background-color: #D9D9D9;
 }
 .link_botao:hover{
 scale: 1.06; 
-background-color:#FE6244 ;  
+background-color:#5df506f5 ;  
 }
 .figura{
-width: 300px;  
-height: 350px;  
+width: 400px;  
+height: 450px;  
 }
 .rodape{
 position:fixed;
