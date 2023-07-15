@@ -1,9 +1,32 @@
 body{
   background-color: orange;
   color: black;
-  font-family: sans-serif;  
+  font-family: sans-serif;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
 }
-.musica{
+.container{
+  width:800px;
+  height: 300px ;
+  border: 2px solid rgb(201, 1, 1) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px 0 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .musica{
 width:550px;
 height: 100px;
 display:flex;
@@ -24,6 +47,7 @@ justify-content: space-between;
   display: flex;
   text-align:justify-all;
 }
+*/
 
 
 
